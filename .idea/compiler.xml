@@ -5,6 +5,8 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="test-rabbitmq-consumer_main" target="1.8" />
+      <module name="test-rabbitmq-consumer_test" target="1.8" />
       <module name="test-spring-cloud-stream-sink_main" target="1.8" />
       <module name="test-spring-cloud-stream-sink_test" target="1.8" />
       <module name="test-spring-cloud-stream-source_main" target="1.8" />

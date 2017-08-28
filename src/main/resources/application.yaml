@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+      - "${user.name}"
+  camel:
+    rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
+      autoAck: false
+
+server:
+  port: 8082
